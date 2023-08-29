@@ -1,0 +1,69 @@
+.btn_logo_2{
+    padding: 0 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logo button{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    color: rgb(240,86,86);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav_2{
+    display: flex;
+    font-size: 1rem;
+    font-weight:100;
+    color: rgb(255,255,255);
+    gap: 3rem;
+    height: 100px;
+}
+.nav_2 h3{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.product_hover{
+    position: relative;
+    cursor: pointer;
+}
+.hover-box {
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* display: none; */
+}
+.hover-box > div{
+    background-color: white;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product_hover:hover{
+    cursor: pointer;
+}
+.investment{
+    padding: 1rem 2rem;
+    text-align: left;
+}
+.investment  h3{
+    color: rgb(40,181,112);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.investment div h4{
+    margin: 1rem 0;
+    padding: 0;
+    line-height: 0rem;
+}

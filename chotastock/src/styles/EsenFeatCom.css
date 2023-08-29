@@ -1,0 +1,71 @@
+:root {
+    --background-image: url('../assest/background_img.jpg');
+  }
+.esenfeat{
+    width: 85%;
+    /* height: 90vh; */
+    margin: auto;
+    background-color: black;
+    background: linear-gradient(to right, rgb(23,30,39) 25%, transparent 25%, transparent 97%, rgb(23,30,39) 97%), var(--background-image);
+    background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  padding:2rem 2.5rem;
+}
+.start_esen{
+    width: 100%;
+    padding: 0.2rem 5rem;
+}
+.start_esen h1{
+    color: rgb(255,255,255);
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.newstyle{
+    color: rgb(249,186,34);
+}
+.start_esen p{
+    margin-top: 4rem;
+    color: rgb(255,255,255);
+    font-size: 1.3rem;
+
+}
+.start_esen h3{
+    margin-top: 1rem;
+    color: rgb(255,255,255);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.btn_esen{
+    margin-top: 3rem;
+}
+.btn_esen a{
+    color: rgb(255,255,255);
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+.images_esen{
+    position: relative;
+    
+}
+.images_esen img{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+}
+
+.images_esen img:nth-child(1) {
+    top: 3rem;
+    right: 7rem;
+  }
+  
+  .images_esen img:nth-child(2) {
+    top: 6rem;
+    right: 11rem;
+  }
+  
+  .images_esen img:nth-child(3) {
+    top: 9rem;
+    right: 15rem;
+  }

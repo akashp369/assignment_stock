@@ -1,0 +1,27 @@
+.trading_comp{
+    background-color:rgba(3, 3, 3, 0.863);
+    /* height: 100vh; */
+    padding: 0.2% 5%;
+}
+.head{
+    color: rgb(255,255,255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.head h1 {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 3.5rem;
+}
+.logo_img{
+    display: flex;
+    overflow: hidden;
+    background-color:rgb(38,38,38);
+}
+.logo_img img{
+    margin: auto;
+    height: 60vh;
+    margin-bottom: 1rem;
+}
+

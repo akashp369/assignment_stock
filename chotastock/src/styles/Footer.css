@@ -1,0 +1,48 @@
+.footer{
+    background-color: rgb(23,30,39);
+    /* height: 80vh; */
+    padding: 3% 10%;
+}
+
+.footer, h5 p{
+    color: rgb(255,255,255);
+}
+
+.footer_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+.h5_t h5{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 0.7rem;
+}
+.h5_t p{
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 0.5rem;
+}
+.h5_t >img{
+    width: 8rem;
+    height: 3.2rem;
+    border-radius: 15px;
+}
+.second_div h5{
+    
+}
+.second_img{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.second_img img{
+    width: 2rem;
+    border-radius: 35%;
+}
+.footer>p{
+
+    font-weight: 100;
+    font-size: 0.8rem;
+}
