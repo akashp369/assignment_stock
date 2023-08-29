@@ -5,7 +5,6 @@ import { BsChevronCompactDown } from "react-icons/bs";
 
 const Navbar2 = () => {
   const[disp, setDisp]=useState('none')
-  console.log(disp)
   return (
     <div className='navbar btn_logo_2'>
     <div className="logo ">
