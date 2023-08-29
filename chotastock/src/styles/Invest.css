@@ -1,0 +1,52 @@
+.invest_main{
+    padding: 2% 12%;
+}
+.invest_first{
+    display: flex;
+    gap: 2rem;
+}
+.first_inv{
+    width: 50%;
+}
+.first_inv h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.first_inv p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.second_inv{
+    width: 50%;
+}
+.second_inv h3{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.second_inv a{
+    font-size: 1.3rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.span_head{
+    color: rgb(243,166,29);
+}
+.span_head2{
+    color:rgb(40,181,112);
+}
+
+.invest_second{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+}
+.invest_second img{
+    width: 60%;
+    border-radius: 5%;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
